@@ -8,5 +8,4 @@ export function singin(req: Request, res:Response, next){
     userService.singin(body)
     .then(result => resSucces(res,true))
     .catch(err => resFail(res, 500, err));
-    
 }

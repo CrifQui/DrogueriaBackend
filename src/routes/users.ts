@@ -1,11 +1,11 @@
 import { Router } from 'express';
+import {login,singin} from '../controllers/users';
 
 
 const users:Router = Router();
 
 /* GET users listing. */
-users.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+users.post("/login",login);
+users.post('/signin',singin);
 
 export default users;

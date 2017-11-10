@@ -6,6 +6,6 @@ exports.config = {
         port: 27017,
         database: "drogueriaDB"
     },
-    secret: 'Dr0gu3r1a5'
+    secret: 'R35taurant35'
 };
 //# sourceMappingURL=global.js.map

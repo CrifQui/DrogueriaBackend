@@ -4,7 +4,7 @@ export class Location{
 }
 
 export class Drogueria{
-    _id:string;
+    _id?:string;
     nombre:string;
     direccion:string;
     contacto:string;

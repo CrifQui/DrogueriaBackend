@@ -1,8 +1,8 @@
-export const config= {
+export const config = {
     database:{
         host:"mongodb://localhost",
         port:27017,
         database:"drogueriaDB"
     },
-    secret:'Dr0gu3r1a5'
+    secret:'DR0gu3r14'
 }
